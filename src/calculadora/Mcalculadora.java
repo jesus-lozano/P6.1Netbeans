@@ -25,7 +25,7 @@ public class Mcalculadora {
         do {
             System.out.println(" Introduce Operacion a realizar");
             /*System.out.println(" 1. suma \n 2. resta \n 3. multiplicacion \n 4. division \n 5. salir");*/
-            System.out.println(" 1. suma \n 2. resta \n 3. salir");
+            System.out.println(" 1. suma \n 2. resta \n 3. multiplicacion \n 4. salir");
             // leo por teclado un entero como opción del menú
             operacion = sc.nextInt();
             // segun valor elegido ejecuto método del objeto claculadora
@@ -36,9 +36,10 @@ public class Mcalculadora {
                 case 2:
                     System.out.println(" la resta es " + casio.resta());
                     break;
-            /*    case 3:
+               case 3:
                     System.out.println(" la multipilcacion es " + casio.multiplicacion());
                     break;
+                    /* 
                 case 4:
                     System.out.println(" La division es " + casio.division());
                     break;
@@ -48,7 +49,7 @@ public class Mcalculadora {
             }
 
 
-        } while (operacion != 3);
+        } while (operacion != 4);
 
         System.out.println(" Gracias por usar la calculadora...hasta luegooooorrr");
 
