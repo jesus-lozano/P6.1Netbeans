@@ -44,5 +44,10 @@ public class calculadora {
         double division=numero1/numero2;
         return division;
     }
+    
+    public double modulo() {
+        double division=numero1%numero2;
+        return division;
+    }
 
 }
